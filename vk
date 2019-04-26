@@ -1,0 +1,462 @@
+.cc-2.block.b-edit_styles > .c-column {
+  margin: 0 0 15px 0;
+  width: 100%;
+}
+
+/* Начало загрузки шрифтов */
+
+/*
+Шрифт Roboto с толщиной штрихов:
+ - 400 (обычный), 500 (полужирный) и 700 (жирный);
+Шрифт Roboto Mono с толщиной 400
+*/
+/* Кириллический 400 */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* 500 */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v16/oHi30kwQWvpCWqAhzHcCSBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* 700 */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v16/isZ-wbCXNKAbnjo6_TwHThJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* Латинский 400 */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* 500 */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v16/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* 700 */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v16/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* Кириллический */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpYzUj_cnvWIuuBMVgbX098Mw.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* Дополненный */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpYzTOQ_MqJVwkKsUn0wKzc2I.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* Латинский */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+/* Дополненный */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpYyYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Конец загрузки шрифтов */
+
+html.turbolinks-progress-bar:before,
+html.turbolinks-progress-bar::before,
+.turbolinks.turbolinks-progress-bar::before {
+  background-color: #FFF !important;
+  box-shadow: 0 0 10px #FFF !important;
+  height: 2px;
+}
+body {
+  background-color: #EDEEF0 !important;
+  background-image: none;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  font-size: 13px;
+  line-height: 1.154;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+}
+.l-top_menu {
+  background: none;
+  border-bottom: none;
+  box-shadow: 1px 0 4px rgba(0, 0, 0, .2);
+  color: #2A5885;
+  height: 100%;
+  line-height: 42px;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -240px;
+  min-width: 240px;
+}
+.to-top-fix {
+  display: none;
+}
+.l-top_menu .inner {
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.l-top_menu .inner > a:first-child {
+  background: url("data\:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(147, 163, 188)' viewBox='0 0 24 24'%3E%3Cpath d='M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z'/%3E%3C/svg%3E") no-repeat 20px 50%;
+  background-size: 24px;
+  color: inherit;
+  padding: 0 20px 0 64px;
+  position: absolute;
+  top: 139px;
+  width: 240px;
+  z-index: 1;
+}
+.l-top_menu .inner > a:first-child:after {
+  content: 'Home';
+}
+[data-locale='ru'] .l-top_menu .inner > a:first-child:after {
+  content: 'Главная';
+}
+.l-top_menu .inner .logo {
+  background: url("data\:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(153, 176, 198)' viewBox='0 0 60.498745 12.426'%3E%3Cpath d='M7.313 9.478q0-1.283-2.132-2.045-.208-.07-1.508-.26-.988-.122-1.404-.486.05-.09.173-.173l.278-.208q.156-.104.277-.191.139-.09.191-.173 2.062-.659 2.669-.659.624 0 1.248.295v-.243q-.676-1.404-2.86-1.404-1.889 0-2.999 1.058-.104.104-.242.78Q.9 6.323.64 6.41q.121 1.439 1.716 1.82.918.191 1.594.347.676.156 1.127.242l.07.278q-.242.26-.745.45-.208.09-.416.156-.208.07-.433.139-.139.07-.243.104l-1.768.347q-.156.03-.52-.09.191-.364.641-.485.208-.05.416-.104.208-.05.416-.09.451-.191.884-.277-.07-.02-.156-.02-.07-.02-.173-.02-.277 0-.659.104-.502.139-.658.156-.139.02-.208.02-.191.03-.416.122-.226.09-.468.208-.642.312-.642.554 0 .399.815 1.11 1.733.433 2.981.433 1.907 0 2.982-.971.537-1.057.537-1.473zm7.178 2.409q-.208-1.334-.208-3.31v-.295q0-.173.02-.416t.02-.416v-.312q0-1.335-.468-1.837-.26-.278-1.075-.278-.97 0-1.508.486-.71 1.04-1.213 1.854-.104.03-.156.03-.09 0-.156-.07-.139-1.006-.104-1.508l.09-1.491q.225-1.109.416-1.803.19-.71.19-1.196 0-.312-.832-.762Q8.745.164 8.398.164q-.312 0-.468.295 0 1.369.208 8.493.09.208.09.433 0 .26-.174.711-.173.451-.173.711 0 .26.156.52.02.03.624.312.364.173.659.173.242 0 .433-.156.09-.485.09-1.196 0-.399-.05-1.179-.02-.398-.03-.693v-.485q.953-1.248 1.525-1.422.364-.104.642-.104.138 0 .294.104.156.104.156.243 0 3.64.191 4.16.156.416.849.624.139.03.399.07.277.03.693.104zm3.555-10.85q-.138-.174-.416-.364-.121-.07-.242-.122-.122-.05-.26-.121-1.248 0-2.132 2.305.07.156.225.295.173.139.364.26.191.104.399.173.208.07.364.07.346 0 .572-.642.312-.797.416-.884.05-.104.416-.468.294-.294.294-.502zm-.138 8.562q-.347.122-.399.122-.104 0-.173-.05-.208-1.734-.208-5.148-.226-.139-.503-.139-.745 0-1.265.676-.26 1.283-.26 2.877 0 .936.208 3.432.312.624.606.624.07 0 .174-.03.138-.09.242-.174.122-.07.191-.138 1.057-.902 1.387-2.046zm8.598-4.905q-.538-.849-1.699-.849-.78.433-1.335.901-.554.451-.936.953.295-.26.746-.398.07.121.07.208-.243.294-.485.52-.226.225-.416.364-.09.05-.156.09-.05.03-.09.07-.901.641-1.127.641-.138 0-.26-.07V1.681q0-.243-.26-.797Q20.108 0 19.154 0q-.433 0-.502.26.398 1.594.468 3.726.02.399.02 1.352.02.936.02 2.41-.02.09-.329.398-.225.243-.225.451 0 .07.02.09.572.26.572 1.057v-.04.03l-.02.173q-.02.538-.05.798.03.104.03.208 0 .09-.03.277-.03.191-.03.277 0 .174.104.295.295 0 .988-.433.09-.295.156-.555.09-.26.139-.485.156-.624.52-.867 3.674 2.011 4.246 2.011.399 0 .711-.624.121-.243.225-.468.104-.226.226-.468-.03-.139-.122-.139l-.312.139q-1.958-.278-3.328-1.196v-.226q.538-.433 1.058-.866.52-.434 1.04-.867 1.265-1.057 1.768-2.028zm3.559-3.657q-.139-.174-.416-.364-.122-.07-.243-.122-.121-.05-.26-.121-1.248 0-2.132 2.305.07.156.225.295.174.139.364.26.191.104.399.173.208.07.364.07.347 0 .572-.642.312-.797.416-.884.05-.104.416-.468.295-.294.295-.502zm-.139 8.562q-.347.122-.399.122-.104 0-.173-.05-.208-1.734-.208-5.148-.225-.139-.503-.139-.745 0-1.265.676-.26 1.283-.26 2.877 0 .936.208 3.432.312.624.607.624.07 0 .173-.03.139-.09.243-.174.121-.07.19-.138 1.058-.902 1.387-2.046zm12.706 1.768q-.243-.78-.243-2.27V7.831q0-.173.02-.364-.07-.398-.122-.693-.03-.312-.05-.537-.104-.694-.485-.954-.191-.121-.676-.121-.832 0-1.785.693l-1.595 1.144q-.156-.398-.208-1.317-.02-.745-.05-1.109-.02-.243-.243-.451-.208-.225-.45-.26-.295-.03-.538-.07-.225-.03-.364-.05-.988.814-1.612 1.976l-1.196 2.253q-.208 0-.225-.121.02.05.02-.364 0-2.531-.277-3.138-.09-.156-.191-.26-.554-.676-1.629-.78 0 1.266-.05 3.779-.05 2.531-.05 3.796l.676.849q.191.191.416.191.173 0 .26-.191.139-.398.225-.693.104-.295.174-.485.797-2.046 2.08-3.484.156-.174.364-.174.277 0 .277.191 0 .139-.02.364 0 .208-.02.503-.02.294-.02.52v.346q0 1.231.52 2.132.537.104.572.104.156 0 .312-.104.329-.554.884-1.161l1.716-1.889q.139.03.329-.208.208-.226.278-.226.104 0 .242.208 0 .226-.02.555 0 .312-.02.745-.02.434-.02.746v.537q0 .07.02.399.03.312.104.901.02.243.05.329.173.538 1.022.538 1.266-.468 1.595-1.058zm8.503-3.553q0-.901-.416-2.288-.381-1.317-2.028-1.317-.988 0-1.733.52-.85.589-.85 1.525 0 .312.312.312.139 0 .156-.02 1.352-.503 1.803-.503.451 0 .815.173 0 1.543-.763 2.618-.867 1.23-2.323 1.23-1.282-.606-1.282-3.102 0-1.318 1.542-2.392.295-.191.642-.434.364-.242.814-.537-.814 0-1.56.26-3.068 1.075-3.068 4.177 0 1.647.884 2.687.936 1.109 2.548 1.109 1.803 0 3.086-1.248.398-.468.589-.693.191-.225.277-.312.555-.711.555-1.768zm5.776-3.432q-.208-.433-1.231-.433h-.572q-.277.485-.537.953-.26.468-.537.936-.174-.173-.278-.572-.03-.173-.09-.312-.05-.156-.09-.295-.156-.52-.728-.641-.347-.07-.607-.121-.26-.05-.45-.09l-.104.277q.554 2.739.554 4.316 0 1.231-.277 2.219.277.884.711 1.075.676.26 1.074.26.312 0 .538-.174-.174-.468-.174-1.404v-.346q0-.208.02-.486.02-.277.02-.485.02-.208.02-.347 0-.121-.02-.294-.02-.191-.05-.434-.03-.242-.05-.433-.02-.191-.02-.312 0-1.04.745-1.3.191-.07.572-.07.797 0 .797.849 0 .277-.242.901-.226.572-.226.798h.104q.451-1.006.728-2.011.278-1.005.399-2.028zM60.5 1.037q-.139-.174-.416-.364-.122-.07-.243-.122-.121-.05-.26-.121-1.248 0-2.132 2.305.07.156.225.295.174.139.364.26.191.104.399.173.208.07.364.07.347 0 .572-.642.312-.797.416-.884.05-.104.416-.468.295-.294.295-.502zm-.139 8.562q-.347.122-.399.122-.104 0-.173-.05-.208-1.734-.208-5.148-.225-.139-.503-.139-.745 0-1.265.676-.26 1.283-.26 2.877 0 .936.208 3.432.312.624.607.624.07 0 .173-.03.139-.09.243-.174.121-.07.19-.138 1.058-.902 1.387-2.046z'/%3E%3C/svg%3E") no-repeat 0 50%;
+  background-size: 107.116px 22px;
+  display: inline-block;
+  display: none;
+  vertical-align: top;
+  float: none;
+  height: 42px;
+  margin: 0;
+  position: static;
+  width: 25.697px;
+  width: 107.116px;
+}
+.l-top_menu .to-mobile-forum {
+  display: none;
+}
+.l-top_menu .menu-mobile {
+  display: block;
+  order: 1;
+  z-index: -1;
+}
+.l-top_menu .menu-mobile .menu {
+  background-color: #E5EBF1;
+  border-radius: 0 0 2px 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  float: none;
+  height: 42px;
+  margin-right: 0;
+  margin-left: 0 !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.l-top_menu .menu-mobile .menu.active {
+  background-color: transparent;
+  box-shadow: none;
+}
+.l-top_menu .menu-mobile .menu:before {
+  background: url("data\:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(147, 163, 188)' viewBox='0 0 24 24'%3E%3Cpath d='M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z'/%3E%3C/svg%3E") no-repeat 50%;
+  background-size: 24px;
+  content: '';
+  display: block;
+  font: inherit;
+  height: 42px;
+  line-height: inherit;
+  width: 42px;
+}
+.l-top_menu .menu-mobile .menu.active:before {
+  background-image: none;
+}
+.l-top_menu .menu-mobile .menu:after {
+  background-color: rgba(0, 0, 0, .7);
+  content: '';
+  display: block;
+  font: inherit;
+  opacity: 0;
+  padding-left: 0;
+  position: fixed;
+  top: -256px;
+  right: 0;
+  bottom: -256px;
+  left: 0;
+  transition: background-color .2s, opacity .2s, visibility .2s;
+  visibility: hidden;
+}
+.l-top_menu .menu-mobile .menu.active:after {
+  opacity: 1;
+  visibility: visible;
+}
+.l-top_menu .menu-userbox {
+  float: none;
+  order: -1;
+  width: 240px;
+}
+.l-top_menu .entry {
+  border: none;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  padding-left: 0;
+}
+.l-top_menu .menu-userbox > .entry {
+  color: inherit;
+  cursor: default;
+  float: none;
+  font: inherit;
+  height: auto;
+  padding: 0;
+  transition: none;
+  width: 100%;
+}
+.l-top_menu .menu-userbox > .entry .unread-count {
+  background: none;
+  background-color: #FF734C;
+  border: 2px solid #E5EBF1;
+  border-radius: 12px;
+  color: #FFF;
+  float: none !important;
+  font-size: 9px;
+  font-weight: 400;
+  height: auto;
+  line-height: 11px;
+  margin: 0;
+  padding: 1px 4px;
+  pointer-events: none;
+  position: fixed;
+  top: 6px;
+  left: 21px;
+  text-align: center;
+  transition: none;
+  min-width: 11px;
+  width: auto;
+}
+.l-top_menu .menu-userbox > .entry a.avatar {
+  background: #EEE no-repeat;
+  background-size: cover;
+  background-image: url(https://unsplash.com/photos/OpiZAxueRUE/download?force=true);
+  color: #FFF;
+  display: block;
+  height: 135px;
+  padding-top: 75px;
+  pointer-events: none;
+  position: relative;
+  width: 100%;
+}
+.l-top_menu .menu-userbox > .entry a.avatar:after {
+  background: linear-gradient(to top, rgba(0, 0, 0, .4), transparent);
+  box-sizing: border-box;
+  color: inherit;
+  content: attr(title);
+  display: block;
+  font-size: 13px;
+  line-height: inherit;
+  overflow: hidden;
+  padding: 10px 20px 8px 64px;
+  pointer-events: auto;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.l-top_menu .menu-userbox > .entry a.avatar img {
+  background-color: #F0F2F5;
+  border-radius: 50%;
+  height: 40px;
+  margin: 0 0 9px 12px;
+  pointer-events: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+}
+.l-top_menu .menu-search .arrow-container,
+.l-top_menu .menu-userbox .arrow-container {
+  display: none;
+}
+.l-top_menu .submenu.right {
+  background: #FFF;
+  border: none;
+  border-bottom-width: 0 !important;
+  color: #2A5885;
+  display: block !important;
+  float: none !important;
+  height: auto !important;
+  margin: 0;
+  overflow: initial;
+  padding: 46px 0 4px 0;
+  position: relative;
+  transition: none;
+  width: 100%;
+  z-index: 0;
+}
+.l-top_menu .submenu > .entry {
+  border: 0;
+  color: inherit;
+  font: inherit;
+  height: auto;
+  padding: 0 20px;
+  position: relative;
+  transition: none;
+  min-width: auto;
+}
+.l-top_menu .submenu.right > .entry {
+  background: no-repeat 20px 50%;
+  background-size: 24px;
+  padding: 0 20px 0 64px;
+}
+.l-top_menu .submenu.right > .entry:active {
+  color: inherit !important;
+}
+.l-top_menu .submenu.right > .entry:nth-child(1) {
+  background-image: url("data\:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(125, 156, 184, .75)' viewBox='0 0 24 24'%3E%3Cpath d='M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z'/%3E%3C/svg%3E");
+}
+.l-top_menu .submenu.right > .entry:nth-child(2) {
+  background-image: url("data\:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(125, 156, 184, .75)' viewBox='0 0 24 24'%3E%3Cpath d='M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z'/%3E%3C/svg%3E");
+}
+.l-top_menu .submenu.right > .entry:nth-child(3) {
+  background-image: url("data\:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(125, 156, 184, .75)' viewBox='0 0 24 24'%3E%3Cpath d='M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z'/%3E%3C/svg%3E");
+}
+.l-top_menu .submenu.right .b-separator {
+  color: inherit;
+}
+.l-top_menu .submenu.right > .entry:nth-child(4) {
+  background-image: url("data\:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(125, 156, 184, .75)' viewBox='0 0 24 24'%3E%3Cpath d='M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z'/%3E%3C/svg%3E");
+}
+.l-top_menu .submenu.right > .entry:nth-child(5) {
+  background-image: url("data\:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(125, 156, 184, .75)' viewBox='0 0 24 24'%3E%3Cpath d='M13 3h-2v10h2V3zm4.83 2.17l-1.42 1.42C17.99 7.86 19 9.81 19 12c0 3.87-3.13 7-7 7s-7-3.13-7-7c0-2.19 1.01-4.14 2.58-5.42L6.17 5.17C4.23 6.82 3 9.26 3 12c0 4.97 4.03 9 9 9s9-4.03 9-9c0-2.74-1.23-5.18-3.17-6.83z'/%3E%3C/svg%3E");
+}
+.l-top_menu .menu-search {
+  float: none;
+  width: 240px;
+}
+.l-top_menu .menu-mobile .search {
+  display: none;
+}
+
+.l-top_menu .menu-items {
+  background-color: #FFF;
+  border-top: 1px solid #DDD;
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin-left: 0;
+  order: 2;
+  padding: 4px 0;
+  transition: margin-left .2s ease;
+  width: 240px;
+  will-change: margin-left;
+}
+.l-top_menu .menu-items.active {
+  margin-left: 240px;
+}
+.l-top_menu .menu-items > .entry {
+  color: inherit;
+  cursor: default;
+  display: block;
+  float: none;
+  position: relative;
+  transition: none;
+  width: 100%;
+}
+.l-top_menu .menu-items > .entry.selected,
+.l-top_menu .menu-items > .entry:hover {
+  background-color: transparent;
+  color: inherit;
+}
+.l-top_menu .menu-items > .entry:active {
+  background-color: transparent;
+  color: inherit !important;
+}
+.l-top_menu .menu-items .submenu-toggler {
+  cursor: pointer;
+  height: 42px;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 42px;
+}
+.l-top_menu .menu-items .submenu-toggler:before {
+  background: url("data\:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba(125, 156, 184, .75)' viewBox='0 0 24 24'%3E%3Cpath d='M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z'/%3E%3C/svg%3E") no-repeat 50%;
+  background-size: 24px;
+  content: '';
+  display: block;
+  font: inherit;
+  height: 42px;
+  transition: transform .2s ease;
+  width: 42px;
+}
+.l-top_menu .menu-items .submenu-toggler.active:before {
+  content: '';
+  transform: rotatez(180deg);
+}
+.l-top_menu .menu-items > .entry > a {
+  display: block;
+  font: inherit;
+  margin: 0;
+  padding: 0 20px 0 64px;
+}
+.l-top_menu .menu-items > .entry > .submenu {
+  background: none;
+  background-color: #E5EBF1;
+  border: none;
+  border-top: 1px solid #C5D0DB;
+  border-bottom: 1px solid #C5D0DB;
+  color: #55677D;
+  line-height: 30px;
+  padding: 0;
+  position: relative;
+  transition: height .2s ease;
+  z-index: 0;
+}
+.l-top_menu .menu-items > .entry > .submenu > .entry {
+  margin: 0;
+  padding: 0 20px 0 64px;
+}
+
+/* Все декстопные фичы сюда */
+@media screen and (min-width: 1025px) {
+
+}
